@@ -33,5 +33,23 @@ yarn-error.log*
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
+### yarn2 ###
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+#serverless output
+.serverless
+.serverless_nextjs
+
+# env
+.env
+.env.*
+.envrc
